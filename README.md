@@ -7,7 +7,7 @@ This is so that we get longer recess.<br>
 _**The checkout System...**_<br>
 is designed to get kids out of the carpool room *as quickly and effeciently as possible.* <br>
 For example, if two kids are carpooling together, and are not related, the parent
-picking them up would say the names of the kids being picked up.
+picking them up would say the names of the kids being picked up.<br>
 Then, the kids will get a notification, and go outside.<br>
 After the parent has the kids, the app will let you check out.
 Once you have checked out, The teachers will know you have left. <br>
@@ -21,4 +21,3 @@ Once you have checked out, The teachers will know you have left. <br>
   6. Displaying student names, grades <br>
   7. It vibrates when they need to be notified, for instance, when their parents have arrived <br>
   8. ATB notifications (When they need to go, if they are waiting for their parents, etc.) <br>
-
