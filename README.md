@@ -1,7 +1,7 @@
 # Trinity Carpool
 ### A carpool management app designed and created by the students of Austin's Trinity Episcopal School. 
 -------------------------------------
-<br>Create an app that helps carpool run faster, smoother, and more efficiently. 
+<br>Our goal is to create an app that helps carpool run faster, smoother, and more efficiently. 
 This is so that we get longer recess.<br>
 -------------------------------------
 _**The checkout System...**_<br>
