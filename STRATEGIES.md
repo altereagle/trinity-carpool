@@ -18,7 +18,7 @@ NOTE!!! Don't have more than one person do it, It could potentially mess up the 
 * Step 3:  `git commit -m "Your message about updating"`
 * Step 4:  `git push` 
 * Step 5:   reviewers take another look
-* Step 6:   review and approv
+* Step 6:   review and approve
 * Step 7:  `git checkout master` to
 * look at what changes have been made
 * Step 8:  `git pull` to pull everything from github
