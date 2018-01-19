@@ -1,0 +1,29 @@
+{
+  "name": "carpool",
+  "version": "1.0.0",
+  "description": "A carpool management app designed and created by the students of Austin's Trinity Episcopal School.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altereagle/trinity-carpool.git"
+  },
+  "keywords": [
+    "carpool",
+    "trinity",
+    "checkout",
+    "volume",
+    "atb"
+  ],
+  "author": "Trinity 2nd trimester computer science class",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altereagle/trinity-carpool/issues"
+  },
+  "homepage": "https://github.com/altereagle/trinity-carpool#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
