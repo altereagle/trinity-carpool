@@ -8,4 +8,3 @@ app.use('/modules', express.static('./node_modules'));
 app.listen(process.env.PORT, function() {
   console.log('server is online')
 });
-// <script type="text/javascript" src="../Js/jquery.js"></script>clear
