@@ -13,6 +13,7 @@ NOTE!!! Don't have more than one person do it, It could potentially mess up the 
 
 ## How do I Git Push?
 Create a new branch, or it will skip reviewer step.
+Start with Git pull
 * Step 1:  `git status`
 * Step 2:  `git add` first letter (Case sensitive) and hit tab
 * Step 2:   Goes from red to green
