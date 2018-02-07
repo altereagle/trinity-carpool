@@ -11,3 +11,6 @@ app.listen(process.env.PORT, function() {
 app.use('/check-in', (request, response) => {
   response.send(`This will check in a student soon!`);
 });
+app.use('/check-out', (request, response) => {
+  response.send(`This will check out a student soon!`);
+});
