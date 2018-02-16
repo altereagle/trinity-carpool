@@ -1,17 +1,31 @@
-<!-- I am going to clean up this html just a bit! -->
-
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- I linked your style to this html file this way -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
+		<!-- This adds bootstrap styles (confirmed by: Mira & Kirby) -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		
+		<!-- This adds jquery (confirmed by: lucy + mira + mikalia) -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		
+		<!-- This adds more bootstrap stuff (confirmed by: kirby + mira)-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		
+		<!-- This adds bootstrap functionality (confirmed by: kirby + mira) -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		
+		<!-- This adds momentjs resources (by: Kendell)-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+		
+		<!-- I linked your style to this html file this way (confirmed by: lucy)-->
+		<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
-	
-	<!-- I moved your html inside the body of the page -->
 	<body>
+	
+		
+		<!-- This adds a digitial clock element (confirmed by:  lucy + mikilia) -->
+		<!-- <div id="clock" class="clock">Loading...</div> -->
+		
+		<!-- Analog clock here by:Kendell -->
 		<div class="hero-circle">
 			<div class="hero-face">
 				<div id="hour" class="hero-hour"></div>
@@ -19,18 +33,13 @@
 				<div id="second" class="hero-second"></div>
 			</div>
 		</div>
-	<button id="check-in">Check In</button>
-	<button id="check-out">Check out</button>
-	
+		
+		<!-- This adds check-in and check-out buttons (confirmed by: Johnny) -->
+  	<button id="check-in">Check In</button>
+  	<button id="check-out">Check out</button>
+  	
 	</body>
 	
-	<!-- We need to add links to the other resources(moment.js) and jquery here! -->
-
-	<!--
-		<script type="text/javascript" src="node_modlules/RESOURCE_NAME_HERE"></script>
-	-->
-	
-	<!-- I linked the javascript file to this html file, so it should run! -->
-	<script type="text/javascript" src="script.js"></script>
-	
-
+	<!-- This adds our scripts (confirmed by: kirby) -->
+  <script type="text/javascript" src="script.js"></script>
+</html>
