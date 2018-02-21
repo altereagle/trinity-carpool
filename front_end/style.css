@@ -68,6 +68,7 @@ body{
 }
 #check-in{
 	background:#1f1fef;
+	border:0;
 }
 #check-out{
 	background:#2626a8;
