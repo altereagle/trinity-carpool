@@ -26,12 +26,16 @@ Start with Git pull
 * Step 8:  `git pull` to pull everything from github
 * Step 9:  `git branch` (hit tab a couple of times) to see if your branch is there
 * Step 10: `get remote prune origin` will say what branches are being deleted
-* Step 11: `git branch -d [name of branch]`
+* Step 11: `git branch -›d [name of branch]`
 * Step 12: `git branch` (hit tab a couple of times) to check if all is deleted
 
 To make a new branch: 
 * Step 1: `git branch "[name]"`
 * Step 2: `git checkout "[name]"`
 * Step 3: You're done! 
+
+Start server
+`node server.js`
+Stop server Control-shift-c
 
 # :) Thanks for reading! Happy Coding!!
