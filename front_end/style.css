@@ -1,89 +1,35 @@
-body{
-	background:#5151ff;
+/* this adds a clock */
+
+body {
+  font-family: 'liquid_crystalregular', sans-serif;
+  user-select: none;
+  user-drag: none;
 }
-.hero-circle{
-	width:180px;
-	height:180px;
-	position:relative;
-	border:8px solid #00A1FF;
-	border-radius:50%;
-	box-shadow:0 1px 8px rgba(34, 34, 34, 0.3),inset 0 1px 8px rgba(34, 34, 34, 0.3);
-}
-.hero-face{
-	width:100%;
-	height:100%;
-}
-.hero-face:after{
-	position:absolute;
-	top:50%;
-	left:50%;
-	width:12px;
-	height:12px;
-	margin:-6px 0 0 -6px;
-	background:#00A1FF;
-	border-radius:6px;
-	content:"";
-	display:block;
-}
-.hero-hour{
-	width:0;
-	height:0;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin:-4px 0 -4px -25%;
-	padding:4px 0 4px 25%;
-	background:#00A1FF;
-	-webkit-transform-origin:100% 50%;
-	-ms-transform-origin:100% 50%;
-	transform-origin:100% 50%;
-	border-radius:4px 0 0 4px;
-}
-.hero-minute{
-	width:0;
-	height:0;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin:-40% -3px 0;
-	padding:40% 3px 0;
-	background:#00A1FF;
-	-webkit-transform-origin:50% 100%;
-	-ms-transform-origin:50% 100%;
-	transform-origin:50% 100%;
-	border-radius:3px 3px 0 0;
-}
-.hero-second{
-	width:0;
-	height:0;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin:-40% -1px 0 0;
-	padding:40% 1px 0;
-	background:#00A1FF;
-	-webkit-transform-origin:50% 100%;
-	-ms-transform-origin:50% 100%;
-	transform-origin:50% 100%;
-}
-#check-in{
-	background:#1f1fef;
-	border:0;
-}
-#check-out{
-	background:#2626a8;
+
+.clock {
+  height: 100px;
+  width: 70%;
+  line-height: 100px;  
+  margin: 150px auto 0;
+  padding: 0 50px;
+  background: #222;
+  color: #eee;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 7px #222;
+  text-shadow: 0 0 3px #fff;
 }
 
 
-
-
+	/* this adds drop down grade level */
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #000080;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    outline:0;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -96,7 +42,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #cce0ff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -105,13 +51,13 @@ body{
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 2px;
     text-decoration: none;
     display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {background-color: #2474ff}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -120,5 +66,6 @@ body{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #0000ff;
 }
+
