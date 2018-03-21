@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Trinity Carpool Application</title>
 		<!-- This adds bootstrap styles (confirmed by: Mira & Kirby) -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		
@@ -20,6 +21,9 @@
 		<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
 	<body>
+		<!-- This adds our school logo to the top of the page-->
+		<img src="logo.png" alt="Trinity Logo">
+
 	<!-- this adds a digital clock -->
 	
 	<div id="clock" class="clock">loading ...</div>
@@ -65,7 +69,10 @@
 
   </div>
 </div>
-
+<form id = "uploadbanner" method = "post" action = "#">
+      <input id = "schoollogo.jpg" type = "file" />
+      <input type = "submit" value = "submit" id = "submit" />
+</form>
 
 	</body>
 	
