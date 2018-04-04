@@ -1,0 +1,106 @@
+<!-- I am going to clean up this html just a bit! -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<!-- I linked your style to this html file this way -->
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	</head>
+	
+	<!-- I moved your html inside the body of the page -->
+	<body>
+		<div class="hero-circle">
+			<div class="hero-face">
+				<div id="hour" class="hero-hour"></div>
+				<div id="minute" class="hero-minute"></div>
+				<div id="second" class="hero-second"></div>
+			</div>
+		</div>
+<script type="text/javascript">
+// (c) 2000-2014 ricocheting.com
+function displayTime() {
+    var time = moment().format('HH:mm:ss');
+    $('#clock').html(time);
+    setTimeout(displayTime, 1000);
+}
+
+$(document).ready(function() {
+    displayTime();
+});
+
+function dotime(){ 
+	var d=new Date();
+	var hr=d.getHours(),mn=d.getMinutes(),se=d.getSeconds();
+
+	// set AM or PM
+	document.ampm.src=((hr<12)?dgam.src:dgpm.src);
+
+	// adjust from 24hr clock
+	if(hr==0){hr=12;}
+	else if(hr>12){hr-=12;}
+
+	document.hr1.src = getSrc(hr,10);
+	document.hr2.src = getSrc(hr,1);
+	document.mn1.src = getSrc(mn,10);
+	document.mn2.src = getSrc(mn,1);
+	document.se1.src = getSrc(se,10);
+	document.se2.src = getSrc(se,1);
+}
+
+function getSrc(digit,index){
+	return dg[(Math.floor(digit/index)%10)].src;
+}
+
+window.onload=function(){
+	dotime();
+	setInterval(dotime,1000);
+};
+
+</script>
+	</body>
+	
+	<!-- We need to add links to the other resources(moment.js) and jquery here! -->
+
+	<!--
+		<script type="text/javascript" src="node_modlules/RESOURCE_NAME_HERE"></script>
+	-->
+	
+	<!-- I linked the javascript file to this html file, so it should run! -->
+</html>
+
+<!-- I am going to clean up this html just a bit! -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<!-- I linked your style to this html file this way -->
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	  <script type="text/javascript" src="script.js"></script>
+	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	</head>
+	<body>
+		<div class="hero-circle">
+			<div class="hero-face">
+				<div id="hour" class="hero-hour"></div>
+				<div id="minute" class="hero-minute"></div>
+				<div id="second" class="hero-second"></div>
+			</div>
+		</div>
+	  	<button type="check-in">Check In</button>
+    	<button type="check-out">Check out</button>
+	</body>
+</html>
