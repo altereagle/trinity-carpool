@@ -24,6 +24,7 @@ body {
 	/* this adds drop down grade level */
 /* Dropdown Button */
 .dropbtn {
+    margin-left: 70px;
     background-color: #000080;
     color: white;
     padding: 16px;
