@@ -4,7 +4,6 @@ body {
   font-family: 'liquid_crystalregular', sans-serif;
   user-select: none;
   user-drag: none;
-   background-color:
 }
 
 .clock {
@@ -38,6 +37,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 70px;
 }
 
 /* Dropdown Content (Hidden by Default) */
