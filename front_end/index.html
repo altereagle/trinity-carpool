@@ -22,12 +22,17 @@
 	</head>
 	<body>
 		
+		
 		<!-- This adds our school logo to the top of the page-->
 		<img src="logo.png" alt="Trinity Logo">
 
 	<!-- this adds a digital clock -->
 	
-	<div id="clock" class="clock">loading ...</div>
+<div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+    <p class="text">DIGITAL CLOCK with Vue.js</p>
+</div>
 	
 
 		<!-- This adds check-in and check-out buttons (confirmed by: Johnny) -->
