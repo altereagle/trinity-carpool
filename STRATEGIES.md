@@ -34,4 +34,15 @@ To make a new branch:
 * Step 2: `git checkout "[name]"`
 * Step 3: You're done! 
 
-# :) Thanks for reading! Happy Coding!!
+## How do I start and stop the server?
+
+* To start server:**`node server.js`**
+* To stop server: **control-shift-c**
+
+## How do I see the running application?
+* Step 1: Press the "Preivew" button in the top left corner of cloud 9
+* Step 2: Click on "Preview running application"
+* Step 3: You got it!
+
+
+# *:) Thanks for reading! Happy Coding!!*

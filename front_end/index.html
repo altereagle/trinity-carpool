@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Trinity Carpool Application</title>
 		<!-- This adds bootstrap styles (confirmed by: Mira & Kirby) -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		
@@ -21,10 +22,37 @@
 	</head>
 	<body>
 
+
+=======
+		
+		
+		<!-- This adds our school logo to the top of the page-->
+		<img src="logo.png" alt="Trinity Logo">
+
+	<!-- this adds a digital clock -->
+	
+<div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+    <p class="text">DIGITAL CLOCK with Vue.js</p>
+</div>
+	
+<div class="jumbotron text-center">
+  <div class="container">
+    
+    <h1>Animated CSS3 Buttons</h1>
+    <p style="color:#888;">A collection of animated buttons to spice up your site</p>
+    
+  </div>
+</div>
+<div class="container"> 
+  <!-- Example row of columns -->
+
   
   <div class="row">
     <div class="col-md-12 text-center">
       <h2>Trinity Transit</h2>
+
 
   <span id="clock" class="clock"></span>
   
@@ -39,4 +67,46 @@
 	<!-- This adds our scripts (confirmed by: kirby) -->
   <script type="text/javascript" src="script.js"></script>
 </html>
+
+=======
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-one">Sign In</a> </div>
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-two">Sign Out</a> </div>
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-three">Grade Select</a> </div>
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-four">Your Acount</a> </div>
+  </div>
+  
+   <div class="dropdown">
+  <button class="dropbtn">Grade Select</button>
+  <div class="dropdown-content">
+	<form>
+	<input type="button" value="Kindergarten" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/5'" />
+	</form>
+	<form>
+	<input type="button" value="1st Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/6'" />
+	</form>
+	<form>
+	<input type="button" value="2nd Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/7'" />
+	</form>
+	<form>
+	<input type="button" value="3rd Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/8'" />
+	</form>
+	<form>
+	<input type="button" value="4th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/9'" />
+	</form>
+	<form>
+	<input type="button" value="5th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/10'" />
+	</form>
+	<form>
+	<input type="button" value="6th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/11'" />
+	</form>
+	<form>
+	<input type="button" value="7th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/12'" />
+	</form>
+	<form>
+	<input type="button" value="8th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/13'" />
+	</form>
 
