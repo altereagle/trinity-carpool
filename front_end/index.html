@@ -4,7 +4,7 @@
 		<!-- This adds bootstrap styles (confirmed by: Mira & Kirby) -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		
-		<!-- This adds jquery (confirmed by: lucy + mira + mikalia) -->
+		<!-- This adds jquery (confirmed by lucy + mira + mikalia) -->
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		
 		<!-- This adds more bootstrap stuff (confirmed by: kirby + mira)-->
@@ -20,58 +20,23 @@
 		<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
 	<body>
-	<!-- this adds a digital clock -->
-	
-	<div id="clock" class="clock">loading ...</div>
-	
 
-		<!-- This adds check-in and check-out buttons (confirmed by: Johnny) -->
-  	<button id="check-in" >Check In</button>
-  	<form>
-  		
-  	<button id="check-out">Check out</button>
-  	
-  	<!-- this adds dropdown menu (comfirmed by caroline) -->
- <div class="dropdown">
-  <button class="dropbtn">SELECT GRADE</button>
-  <div class="dropdown-content">
-	<form>
-	<input type="button" value="Kindergarten" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/5'" />
-	</form>
-	<form>
-	<input type="button" value="1st Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/6'" />
-	</form>
-	<form>
-	<input type="button" value="2nd Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/7'" />
-	</form>
-	<form>
-	<input type="button" value="3rd Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/8'" />
-	</form>
-	<form>
-	<input type="button" value="4th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/9'" />
-	</form>
-	<form>
-	<input type="button" value="5th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/10'" />
-	</form>
-	<form>
-	<input type="button" value="6th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/11'" />
-	</form>
-	<form>
-	<input type="button" value="7th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/12'" />
-	</form>
-	<form>
-	<input type="button" value="8th Grade" onclick="window.location.href='https://portals.veracross.com/tes/student/directory/13'" />
-	</form>
+  
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>Trinity Transit</h2>
+
+  <span id="clock" class="clock"></span>
+  
+  <div class="row">
+    <div id="check-in" class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-one">Check In</a> </div>
+    <div id="check-out" class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-two">Check Out</a> </div>
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-three">Grade Select</a> </div>
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-four">Your Account</a> </div>
   </div>
-</div>
-
-
-	</body>
-	
-    
+  
 	
 	<!-- This adds our scripts (confirmed by: kirby) -->
   <script type="text/javascript" src="script.js"></script>
 </html>
 
-	
