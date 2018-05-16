@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 /* Global Button Styles */
-a.animated-button:link, a.animated-button:visited {
+.animated-button:link, .animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
@@ -25,7 +25,7 @@ a.animated-button:link, a.animated-button:visited {
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
 }
-a.animated-button:link:after, a.animated-button:visited:after {
+.animated-button:link:after, .animated-button:visited:after {
 	content: "";
 	position: absolute;
 	height: 0%;
@@ -38,14 +38,14 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	-o-transition: all 0.75s ease 0s;
 	transition: all 0.75s ease 0s;
 }
-a.animated-button:link:hover, a.animated-button:visited:hover {
+.animated-button:link:hover, .animated-button:visited:hover {
 	color: #062e71;
 	text-shadow: none;
 }
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+.animated-button:link:hover:after, .animated-button:visited:hover:after {
 	height: 450%;
 }
-a.animated-button:link, a.animated-button:visited {
+.animated-button:link, .animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
@@ -67,15 +67,14 @@ a.animated-button:link, a.animated-button:visited {
 }
 
 /* Caroline Buttons */
-
-a.animated-button.caroline-button:hover:after {
+.animated-button.caroline-button:hover:after {
 	height: 140%;
 	opacity: 1;
 }
-a.animated-button.caroline-button {
+.animated-button.caroline-button {
 	border: 2px solid #FFFFFF;
 }
-a.animated-button.caroline-button:after {
+.animated-button.caroline-button:after {
 	background: #FFFFFF;
 	opacity: .5;
 	-moz-transform: translateX(-50%) translateY(-50%);
@@ -83,7 +82,8 @@ a.animated-button.caroline-button:after {
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-a.animated-button.caroline-button:hover:after {
+.animated-button.caroline-button:hover:after {
 	height: 140%;
 	opacity: 1;
-}
+	
+}      
